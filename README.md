@@ -43,6 +43,8 @@ Below are the description of what each function does.
      It then converts the BGR image to RGB and GRAY scaled images. The RGB image show the real representation of the 
      image before it was loaded. 
      The gray scaled image is useful for further analysis. This will be applied in the subsequent functions. 
+     
+     ![](images/bgr_rgb_gray.png)
 
 
 4th function -  annotation()
