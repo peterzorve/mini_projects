@@ -6,7 +6,7 @@
 You will need the following python libraries 
 
 
-TOOLS	          VERSION 	          HOW TO INSTALL USING ANACONDA
+Libraries, Version, How to Install using Anaconda
 -------------------------------------------------------------------
 	Python 		      3.8		
 	NumPy 	
