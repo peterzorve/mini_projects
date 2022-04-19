@@ -8,12 +8,12 @@ You will need the following python libraries
 
 TOOLS	          VERSION 	          HOW TO INSTALL USING ANACONDA
 -------------------------------------------------------------------
-Python 		      3.8		
-NumPy 	
-Pandas  		
-matplotlib 		
-torch 		     1.11.0	
-torchvision		
+	Python 		      3.8		
+	NumPy 	
+	Pandas  		
+	matplotlib 		
+	torch 		     1.11.0	
+	torchvision		
 
 
 This github contains a file named 'functions.py'. The 'functions.py' also contains a set of 11 different functions. M
