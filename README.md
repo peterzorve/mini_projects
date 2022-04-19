@@ -106,5 +106,6 @@ Below are the description of what each function does.
      In deep learning, the size of the image plays significant role in the speed of the model 
      Lastly, this function also converts the cropped image to a rquired size to be used as an input for the deep learning algorithm. 
 
-
+More functions will be added, and the current ones will be modified 
+-----------------------------------------------------------------------------------------------------------------------------
 	
