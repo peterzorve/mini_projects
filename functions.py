@@ -668,36 +668,36 @@ def preprocess_plot_resize(path):
      
 
 
-     # """ """
-     # rgb_number_copy = rgb_number.copy()
-     # cv2.drawContours(rgb_number_copy, sorted_contous[0], -1, (255, 0, 0), 6)
+     """ """
+     rgb_number_copy = rgb_number.copy()
+     cv2.drawContours(rgb_number_copy, sorted_contous[0], -1, (255, 0, 0), 6)
      
 
 
-     # rgb_number_copy2 = rgb_number.copy()
-     # cv2.rectangle(rgb_number_copy2, (x, y), (x+w, y+h), (255, 0, 0), 6)
+     rgb_number_copy2 = rgb_number.copy()
+     cv2.rectangle(rgb_number_copy2, (x, y), (x+w, y+h), (255, 0, 0), 6)
 
 
-     # fig = plt.figure()
-     # plt.figure(figsize=(30, 15))
+     fig = plt.figure()
+     plt.figure(figsize=(30, 15))
 
-     # plt.subplot(2, 4, 1)
-     # plt.imshow(rgb_number)
-     # plt.title('Original Image', fontsize=20)
+     plt.subplot(2, 4, 1)
+     plt.imshow(rgb_number)
+     plt.title('Original Image', fontsize=20)
 
-     # plt.subplot(2, 4, 2)
-     # plt.imshow(rgb_number_copy3)
-     # plt.title('Highlight Image', fontsize=20)
+     plt.subplot(2, 4, 2)
+     plt.imshow(rgb_number_copy3)
+     plt.title('Highlight Image', fontsize=20)
 
-     # plt.subplot(2, 4, 3)
-     # plt.imshow(cropped_number, cmap='gray')
-     # plt.title('Cropped digit', fontsize=20)
+     plt.subplot(2, 4, 3)
+     plt.imshow(cropped_number, cmap='gray')
+     plt.title('Cropped digit', fontsize=20)
 
-     # plt.subplot(2, 4, 4)
-     # plt.imshow(resized_numnber, cmap='gray')
-     # plt.title('Resized (100, 100)', fontsize=20)
+     plt.subplot(2, 4, 4)
+     plt.imshow(resized_numnber, cmap='gray')
+     plt.title('Resized (100, 100)', fontsize=20)
 
-     # plt.show()
+     plt.show()
 
 
      # plt.subplot(2, 4, 5)
@@ -718,7 +718,7 @@ def preprocess_plot_resize(path):
      # plt.imshow(rgb_number_copy2)
      # plt.title('', fontsize=20)
 
-     return rgb_number, rgb_number_copy3, cropped_number, resized_numnber
+     return  # rgb_number, rgb_number_copy3, cropped_number, resized_numnber
 
 
 
