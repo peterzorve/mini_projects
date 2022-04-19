@@ -55,7 +55,7 @@ Below are the description of what each function does.
      In the future, the function will be modified such that, the user can decide that shape and test to annotate on the 
      image  
      
-![](images/)
+![](images/annotation.png)
 
 5th function - thresholding()
 -----------------------------------------------------------------------------------------------------------------------------
@@ -111,7 +111,7 @@ Below are the description of what each function does.
      digit and tries to apply a threshold to the images. 
      This makes the digit isolated and readable 
      
-![](images/)
+![](images/preprocess.png)
 
 11th function - preprocess_plot_resize()
 -----------------------------------------------------------------------------------------------------------------------------
@@ -120,7 +120,7 @@ Below are the description of what each function does.
      In deep learning, the size of the image plays significant role in the speed of the model 
      Lastly, this function also converts the cropped image to a rquired size to be used as an input for the deep learning algorithm. 
 
-![](images/preprocess.png)
+![](images/preprocess_plot_resize.png)
 
 More functions will be added, and the current ones will be modified 
 -----------------------------------------------------------------------------------------------------------------------------
