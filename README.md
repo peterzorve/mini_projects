@@ -122,6 +122,13 @@ Below are the description of what each function does.
 
 ![](images/preprocess_plot_resize.png)
 
+
+12th function - green_backgrounf()
+-----------------------------------------------------------------------------------------------------------------------------
+	This accepts an image and converts the backgroung to green 
+![](images/green_screen.png)
+
+
 More functions will be added, and the current ones will be modified 
 -----------------------------------------------------------------------------------------------------------------------------
 	
