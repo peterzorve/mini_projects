@@ -129,6 +129,7 @@ Below are the description of what each function does.
 ![](images/green_screen.png)
 
 
+
 More functions will be added, and the current ones will be modified 
 -----------------------------------------------------------------------------------------------------------------------------
 	
