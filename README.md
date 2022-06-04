@@ -111,6 +111,7 @@ Below are the description of what each function does.
      digit and tries to apply a threshold to the images. 
      This makes the digit isolated and readable 
      
+     
 ![](images/preprocess.png)
 
 11th function - preprocess_plot_resize()
