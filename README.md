@@ -8,18 +8,25 @@ You will need the following python libraries
 
 Libraries, Version, How to Install using Anaconda
 -------------------------------------------------------------------
-	Python 		      3.8		
-	NumPy 	
-	Pandas  		
-	matplotlib 		
-	torch 		     1.11.0	
-	torchvision		
+	--------------------------------------------------------------------------------
+	LIBRARY		|    VERSION	|  ANACONDA INSTALLATION 
+	----------------|---------------|-----------------------------------------------
+	Python 		|     3.8	|         	
+	matplotlib 	|    3.5.1	|  conda install -c conda-forge matplotlib 	
+	torch 		|    1.11.0	|  conda install -c pytorch pytorch 
+	torchvision	|    0.12.0	|  conda install -c conda-forge torchvision
+  	sklearn		|    1.0.2	|  conda install -c anaconda scikit-learn
+	-------------------------------------------------------------------------------
+  
+ This github repository contains different files 
+ ------------------------------------------------------------------
+  	model.py	: 	The file has the model used for the training 
+  	data_handler.py :    	This contains both the preprocessing of the data and the training loop 
+  	prediction.py   :    	This contains the file for making the prediction after the training is complete 
+  
 
-
-This github contains a file named 'functions.py'. The 'functions.py' also contains a set of 11 different functions. M
-ore functions will be added later. 
-
-Below are the description of what each function does. 
+Datasets - oxford-102-flowers-classification
+------------------------------------------------------------------
 
 
 1st function - color_map()
